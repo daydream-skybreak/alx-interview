@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """implements pascals triangle"""
 
+
 def pascal_triangle(n):
     """ returns pascal triangle for a given integer 'n'
     @param: n
