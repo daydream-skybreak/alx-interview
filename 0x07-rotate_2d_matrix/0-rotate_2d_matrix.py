@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Rotate 2d Matrix"""
-from typing import List
 
 
 def rotate_2d_matrix(matrix):
@@ -14,7 +13,7 @@ def rotate_2d_matrix(matrix):
             j -= 1
 
 
-def transpose(matrix: List[List[int]]):
+def transpose(matrix):
     """returns the transpose of <matrix>"""
     i = 0
     while i < len(matrix):
