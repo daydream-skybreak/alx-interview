@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Island perimeter solver"""
 
+
 def island_perimeter(grid):
     """solves Island perimeter"""
     (row, column) = (len(grid), len(grid[0]))
